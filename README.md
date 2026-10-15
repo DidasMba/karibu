@@ -121,6 +121,7 @@ tests/           Vitest tests for the server and the tool logic
 | Symptom | Fix |
 | --- | --- |
 | `ELEVENLABS_AGENT_ID is not set` | Run `yarn agent:sync`. |
+| `The API key you used is missing the permission convai_read` | The key needs **ElevenAgents: Write**. Edit the key's permissions in the ElevenLabs dashboard, and check that the key in `.env` is the one you edited (compare the last 4 characters). |
 | `Could not start a session with ElevenLabs` | Check the server logs. Usually the API key is wrong or missing the ElevenAgents permission. |
 | Microphone blocked | Allow it in the browser, or switch to **Text** mode. On a remote host the page must be served over HTTPS. |
 | Agent says it did something but the UI didn't change | The tool name in `shared/agent.ts` and in `useConversationClientTool` must match. Re-run `yarn agent:sync`. |
