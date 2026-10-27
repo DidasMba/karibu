@@ -161,7 +161,7 @@ export function App() {
         <div className="brand">
           <span className="brand-mark" aria-hidden="true" />
           <div>
-            <h1>Karibu</h1>
+            <h1>Karibu AI</h1>
             <p>Multilingual community concierge · ElevenAgents + React</p>
           </div>
         </div>
