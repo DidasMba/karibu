@@ -1,10 +1,10 @@
-# Karibu
+# Karibu AI
 
 **A multilingual voice and text agent built with [ElevenAgents](https://elevenlabs.io/docs/eleven-agents) and React.** It speaks English, French and Swahili, calls tools that run in your browser, and never exposes your API key.
 
 *Karibu* means "welcome" in Swahili. The demo is a concierge for the developer community in Kigali, Rwanda: ask what's coming up, and the agent shows event cards on screen and saves your spot. The patterns are general, so you can swap the events for your own data and keep the rest.
 
-![Karibu screenshot](docs/screenshot.png)
+![Karibu AI screenshot](docs/screenshot.png)
 
 ## What this shows
 
@@ -22,7 +22,7 @@
 You need Node.js 20.19+, [Yarn 1](https://classic.yarnpkg.com/) and an [ElevenLabs API key](https://elevenlabs.io/app/settings/api-keys) with ElevenAgents read and write access.
 
 ```bash
-git clone https://github.com/<you>/karibu.git && cd karibu
+git clone https://github.com/<you>/karibu-ai.git && cd karibu-ai
 yarn
 cp .env.example .env          # then paste your key into ELEVENLABS_API_KEY
 yarn agent:sync            # creates the agent and its tools, saves the id to .env
